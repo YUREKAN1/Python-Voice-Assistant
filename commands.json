@@ -1,0 +1,33 @@
+
+{
+    "commands": [
+        {
+            "phrases": ["open youtube", "launch youtube"],
+            "action": "open_url",
+            "value": "https://www.youtube.com"
+        },
+        {
+            "phrases": ["open github", "launch github"],
+            "action": "open_url",
+            "value": "https://github.com"
+        },
+        {
+            "phrases": ["open my portfolio", "show my portfolio"],
+            "action": "open_url",
+            "value": "https://yurekan-portfolio.vercel.app"
+        },
+        {
+            "phrases": [
+                "search python documentation",
+                "find python documentation"
+            ],
+            "action": "search_web",
+            "value": "Python official documentation"
+        },
+        {
+    "phrases": ["open stack overflow"],
+    "action": "open_url",
+    "value": "https://stackoverflow.com"
+}
+    ]
+}
